@@ -359,6 +359,7 @@
         }
 
         function showShop() {
+<<<<<<< HEAD
             const wallet = "0xe23d9C5422A8bdB5281b15596111814808f98F1A";
             const themePrice = "0.002 ETH"; // ~$4
             const choice = confirm(`Welcome to the FocusShop! 🛒\n\nUnlock the "Cyberpunk Neon" Theme for ${themePrice}?\n\nSend payment to:\n${wallet}\n\nClick OK to copy address and proceed.`);
@@ -367,6 +368,9 @@
                 navigator.clipboard.writeText(wallet);
                 alert("Wallet address copied! Please send the payment. Once verified, your theme will unlock automatically.");
             }
+=======
+            alert('Shop coming soon! Spend coins to unlock themes\n\nCurrent coins: ' + stats.coins);
+>>>>>>> 3461c40bbfa9028be11cd4617cd2c069c2b635a0
         }
 
         // Initial load
@@ -377,9 +381,12 @@
             Notification.requestPermission();
         }
     </script>
+<<<<<<< HEAD
     
     <div style="text-align: center; margin: 30px 0;">
         <a href="https://ko-fi.com/tezfiles" target="_blank" style="background: #29abe0; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; display: inline-block;">☕ Support on Ko-fi</a>
     </div>
+=======
+>>>>>>> 3461c40bbfa9028be11cd4617cd2c069c2b635a0
 </body>
 </html>

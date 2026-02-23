@@ -3,7 +3,11 @@
   "short_name": "FocusMaster",
   "start_url": ".",
   "display": "standalone",
+<<<<<<< HEAD
   "background_color": "#0f172a",
+=======
+  "background_color":"#0f172a",
+>>>>>>> 3461c40bbfa9028be11cd4617cd2c069c2b635a0
   "theme_color": "#3b82f6",
   "orientation": "portrait",
   "icons": [
